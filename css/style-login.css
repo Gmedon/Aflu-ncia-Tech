@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container-total-login {
+    width: 100%;
+    background-image: url(../img/fundo-login.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 7%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.cubo-login {
+    width: 340px;
+    height: 500px;
+    background-color: rgba(204, 204, 204, 0.466);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha-login {
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.text-login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.text-login-principal {
+    font-size: 40px;
+}
+
+.input-login {
+    font-size: 20px;
+    width: 100%;
+}
+
+.login-input {
+    width: 280px;
+    border-radius: 10px;
+}
+
+.esqueceusenha-text {
+    font-size: 13px;
+    margin-left: 6px;
+    color: rgba(0, 0, 255, 0.507);
+}
+
+.abaentrar-registro {
+    color: rgba(0, 0, 255, 0.507);
+    cursor: pointer;
+}
+
+.bt-login {
+    margin-top: 50px;
+    width: 150px;
+    background-color: indigo;
+    border-radius: 10px;
+}
+
+/*FIM LOGIN*/
+/*CADASTRO ETAPA 1*/
+.display-etapa-1 {
+    display: none;
+}
+
+.container-cadastro {
+    width: 340px;
+    height: 500px;
+    background-color: rgba(204, 204, 204, 0.466);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.text-cadastro-etapa1 {
+    font-size: 30px;
+}
+
+.input-cadastro-etapa {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    gap: 10%;
+}
+
+.bt-passar-etapa {
+    margin-left: 70px;
+    margin-top: 50px;
+    width: 150px;
+    background-color: indigo;
+    border-radius: 10px;
+}
+
+/*ETAPA 2*/
+.display-etapa-2 {
+    display: none;
+}
+
+/*ETAPA 3*/
+.display-etapa-3 {
+    display: none;
+}
+
+/*ETAPA 4*/
+.display-etapa-4 {
+    display: none;
+}

@@ -1,0 +1,324 @@
+@import url('https: //fonts.googleapis.com/css2?family= Orbitron: família= Orbitron:wght@500 & display=swap');
+
+/*GERAIS*/
+body {
+    font-family: 'Orbitron', Verdana, Tahoma, sans-serif;
+
+    /*REVISAR FONT*/
+}
+
+.row {
+    margin: 0;
+}
+
+.conteiner {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/*FINAL GERAIS*/
+
+/*BARRA DE NAVEGAÇÃO*/
+.container-nav {
+    width: 100%;
+    height: 96px;
+    background-color: #4B0082;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#logo {
+    width: 50px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding-right: 200px;
+    cursor: pointer;
+    color: white;
+}
+.nav-item:hover {
+    color: rgb(184, 184, 184);
+}
+.lista-nav {
+    display: none;
+}
+.lista-nav li {
+color: white;
+list-style: none;;
+}
+li:hover {
+    color: rgb(184, 184, 184);
+}
+.navbar-nav2 {
+    display: none;
+    flex-direction: row;
+    gap: 5%;
+    padding-right: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.toogle-nav {
+    width: 50px;
+    display: none;
+}
+
+/*FIM DA BARRA DE NAVEGAÇÃO*/
+/*CAROUSEL SLIDER*/
+.container-fluid {
+    padding: 0;
+}
+
+/* FIM DO CAROUSEL SLIDER*/
+/*INÍCIO DA CONTAGEM*/
+.container-contagem {
+    width: 100%;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 5px #ccc;
+    background-color: rgb(168, 10, 63);
+    background: linear-gradient(120deg, rgb(168, 10, 63) ,  #3344fd,  rgb(168, 10, 63));
+    color: white;
+    padding: 40px;
+}
+.exibir-timer {
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #888;
+    color: white;
+}
+.text-contagem {
+    font-size: 40px;
+    color: white;
+}
+
+/*FIM DA CONTAGEM*/
+/* INÍCIO SOBRE A AFFLUENCE SA E FESTIVAL*/
+.container-about-area {
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    color: indigo;
+    margin: 20px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.about-title {
+    font-size: 20px;
+    color: indigo;
+    text-transform: uppercase;
+    font-weight: 'Orbitron';
+}
+.about-title-submit-project{
+    font-size: 20px;
+    color: indigo;
+    text-transform: uppercase;
+    font-weight: 'Orbitron';
+    text-align: center;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: o;
+}
+
+#about-list li {
+    line-height: 40px;
+}
+
+#about-list i {
+    color: indigo;
+    margin-right: 300px;
+}
+
+
+
+/* FIM SOBRE A AFFLUENCE SA E FESTIVAL*/
+/*! INÍCIO DE PALESTRANTES E WORKSHOP*/
+.main-title-pale-work {
+    color: white;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.programacao {
+    width: 100%;
+    background-color: #6f99d3;
+}
+
+.container-img-work-pale {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #6f99d3;
+}
+
+.img-card {
+    width: 30%;
+}
+
+/*! FIM DE PALESTRANTES*/
+/*! INÍCIO DO INSCREVA-SE*/
+#ingressos-area {
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
+
+
+.text-ingresso {
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
+.valores-ticket {
+transition: all 1s;
+cursor: pointer;
+}
+.valores-ticket:hover {
+color: rgb(39, 39, 39);
+}
+.ingressos-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ingressos-box i,
+.ingressos-box h4 {
+    transition: .5s;
+}
+
+.ingressos-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: indigo;
+}
+
+.ingressos-box h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ingressos-box:hover>i {
+    color: #6f99d3;
+}
+
+.service-box:hover>h4 {
+    color: #6f99d3;
+}
+
+/*! FIM DO INSCREVA-SE*/
+/*!INÍCIO DE DADOS*/
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+
+}
+
+/*INÍCIO DO RODAPÉ*/
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid indigo;
+}
+
+.contact-box i {
+    color: blueviolet;
+    border: solid 1px indigo;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: orbitron, serif;
+    color: indigo;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#contact-area {
+    text-align: center;
+}
+
+/*Copy - Rodapé*/
+#copy-area {
+    background-color: indigo;
+}
+
+#copy-area .conteiner {
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+#copy-area .conteiner p {
+    margin-bottom: 0;
+    color: white;
+}
+
+#copy-area .conteiner a {
+    font-weight: orbitron, serif;
+    color: white;
+}
+
+/*Fim Copy - Rodapé*/
+/*FIM DO RODAPÉ*/
+@media (max-width: 1100px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .toogle-nav {
+        display: block;
+    }
+}
+@media (max-width: 850px) {
+.text-contagem {
+    font-size: 30px;
+}
+}
+@media (max-width: 650px) {
+    .text-contagem {
+        font-size: 20px;
+    }
+}
